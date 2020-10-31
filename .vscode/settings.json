@@ -1,0 +1,5 @@
+{
+    "es6-css-minify.minifyOnSave": "yes",
+    "java.saveActions.organizeImports": true,
+    "files.autoSave": "afterDelay"
+}
