@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Room from "../model/Room"
 
 export default class Room extends Component {
   render() {
@@ -31,7 +32,7 @@ export default class Room extends Component {
                   </div>
                   <div className="kichThuoc">
                     <i className="fas fa-ruler"></i>
-                    <span>""m²</span>
+                    <span>{this.props.dienTich}m²</span>
                   </div>
                 </div>
                 <div className="diaChi">
