@@ -1,5 +1,6 @@
 {
     "es6-css-minify.minifyOnSave": "yes",
     "java.saveActions.organizeImports": true,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "compile-hero.disable-compile-files-on-did-save-code": false
 }

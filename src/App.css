@@ -511,12 +511,18 @@ body {
   border-right: 1px solid rgb(205, 205, 205);
   margin: 4px;
 }
+.khung-Tim-Kiem{
+  background:  #fff;
+  padding: 0 0 30px 0;
+}
+
 #search {
+  /* margin-top: 12px; */
+  background: #fff;
   border: 1px solid rgb(205, 205, 205);
   border-radius: 30px;
   padding: 8px 15px;
-  /* margin: 0 auto; */
-  
+  margin: 0 auto;
   max-width: 485px;
 }
 .timKiem {
@@ -690,3 +696,150 @@ body {
   /* grid-auto-rows: minmax(440px, auto); */
 }
 /* Khung Phai  */
+/* Form */
+
+form{
+  width: 1400px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 50px 100px ;
+}
+.dangPhong{
+  margin-top:  30px;
+  border-radius: 30px;
+}
+.dangPhong input{
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 20px;
+  padding: 10px;
+}
+.dangPhong select{
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 20px;
+}
+.dangPhong option{
+  background-color: var(--primary-color);
+  color: white;
+}
+.dangPhong .title{
+  align-items: center;
+  text-align : center;
+}
+
+.loaiPhong .noiDung{
+  margin-bottom : 30px;
+}
+.item_tienIch {
+  background-color: #b085f5;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+}
+.item_tienIch > i {
+  margin-right: 10px;
+}
+#dangPhong{
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+form{
+  width: 1300px;
+  background-color: white;
+  padding: 50px 100px ;
+}
+.dangPhong{
+  margin-top:  30px;
+  border-radius: 30px;
+}
+.dangPhong input{
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 20px;
+  padding: 10px;
+}
+.dangPhong select{
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 20px;
+}
+.dangPhong option{
+  background-color: var(--primary-color);
+  color: white;
+}
+.dangPhong .title{
+  align-items: center;
+  text-align : center;
+}
+
+.loaiPhong .noiDung{
+  margin-bottom : 10px;
+}
+.item_tienIch {
+  background-color: #b085f5;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+}
+.item_tienIch > i {
+  margin-right: 10px;
+}
+#dangPhong{
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+/* Số lượng phòng */
+#soLuongPhong{
+  margin-top: 10px;
+}
+/* Sữa giới tính */
+.genDer{
+  margin-top: 10px;
+  display: grid;
+  grid-gap: 10px;
+}
+/* Diện tích */
+.dienTich{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  margin: 10px;
+}
+/* Sữa chi phí */
+.khungChiPhi{
+  margin-top: 10px;
+  display:grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr ;
+  
+}
+.tienDien{
+  display: grid;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  
+}
+.ipTienDien{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.khungMienPhi{
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Địa chỉ */
+.diaChiChiTiet{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+/* Hình ảnh phòng */
+
+.hinhAnhPhong{
+  display: grid;
+  grid-gap: 10px;
+  margin: 10px;
+}

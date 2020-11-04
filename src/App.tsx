@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import ListRoomContainer from './container/ListRoomContainer';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import CreateRoomPage from './container/CreateRoom';
+
 
 
 function App() {
@@ -10,11 +12,14 @@ function App() {
       <Router>
         <div>
           <Switch>
+          <Route path="/">
+              <ListRoomContainer />
+            </Route>
             <Route path="/ListRoomContainer">
               <ListRoomContainer />
             </Route>
-            <Route path="/">
-              <ListRoomContainer />
+            <Route path="/CreateRoomPage">
+              <CreateRoomPage/>
             </Route>
           </Switch>
         </div>
