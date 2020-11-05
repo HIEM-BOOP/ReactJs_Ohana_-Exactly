@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import ListRoomContainer from './container/ListRoomContainer';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import CreateRoomPage from './container/CreateRoom';
+import CreateRoom from './container/CreateRoom';
 
 
 
@@ -18,8 +18,8 @@ function App() {
             <Route path="/ListRoomContainer">
               <ListRoomContainer />
             </Route>
-            <Route path="/CreateRoomPage">
-              <CreateRoomPage/>
+            <Route path="/CreateRoom">
+              <CreateRoom/>
             </Route>
           </Switch>
         </div>
